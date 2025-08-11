@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enhanced HTML5 web page showcasing lists, tables, media, and validated forms.">
+    <title>Enhanced HTML5 Page with Form</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My HTML5 Enhanced Page</h1>
+        <p>This page demonstrates lists, tables, media, and HTML5 form validation.</p>
+    </header>
+
+    <!-- Lists Section -->
+    <section>
+        <h2>My Favorite Programming Languages Are</h2>
+        <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>Java</li>
+        </ul>
+
+        <h3>Steps to Build a Web Page</h3>
+        <ol>
+            <li>Plan your content and structure</li>
+            <li>Write semantic HTML5</li>
+            <li>Style with CSS</li>
+            <li>Add interactivity with JavaScript</li>
+        </ol>
+    </section>
+
+    <!-- Table Section -->
+    <section>
+        <h2>Web Development Skills Table</h2>
+        <table border="1">
+            <caption>Skill Levels</caption>
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency Level</th>
+                    <th>Years of Experience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Advanced</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Intermediate</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Media Section -->
+    <section>
+        <h2>Sample Media Content</h2>
+
+        <figure>
+            <img src="img/Abraham's-Passport.JPG" alt="Abraham's Passport" width="400">
+
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <video width="400" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+        <h2>Contact Form</h2>
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Name" required minlength="3"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="email" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="phone no" pattern="^\+?\d{10,15}$" required><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account Details</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required minlength="4"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required minlength="6"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="language">Preferred Language:</label>
+                <select id="language" name="language" required>
+                    <option value="">Select one...</option>
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="java">Java</option>
+                    <option value="html-css">HTML & CSS</option>
+                </select><br><br>
+
+                <label>Subscribe to Newsletter:</label>
+                <input type="radio" id="yes" name="subscribe" value="yes" required>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="subscribe" value="no">
+                <label for="no">No</label><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message</legend>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Write something here..." required></textarea>
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Form">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My HTML5 Enhanced Page</p>
+    </footer>
+
+</body>
+</html>
