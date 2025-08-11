@@ -1,0 +1,80 @@
+/* ===== General Page Styling ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Section Styling ===== */
+.intro {
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #0077b6;
+}
+
+/* ===== Card Layout ===== */
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+
+    /* Box Model properties */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card button:hover {
+    background-color: #023e8a;
+}
+
+/* ===== Footer Styling ===== */
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
